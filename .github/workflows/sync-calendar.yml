@@ -57,8 +57,8 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           SOURCE_CALENDAR_IDS: ${{ secrets.SOURCE_CALENDAR_IDS }}
           DESTINATION_CALENDAR_ID: ${{ secrets.DESTINATION_CALENDAR_ID }}
-          DAYS_AHEAD: ${{ secrets.DAYS_AHEAD }}
-          TIMEZONE: ${{ secrets.TIMEZONE }}
+          DAYS_AHEAD: ${{ secrets.DAYS_AHEAD || '90' }}
+          TIMEZONE: ${{ secrets.TIMEZONE || 'Europe/Madrid' }}    
         run: python -m calendar_sync.main
 
       - name: Cleanup synced destination events
