@@ -50,18 +50,16 @@ jobs:
         run: pytest -q
 
       - name: Run calendar sync
-        if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode == 'sync' }}
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           SOURCE_CALENDAR_IDS: ${{ secrets.SOURCE_CALENDAR_IDS }}
           DESTINATION_CALENDAR_ID: ${{ secrets.DESTINATION_CALENDAR_ID }}
-          DAYS_AHEAD: ${{ vars.DAYS_AHEAD || '60' }}
-          TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Madrid' }}
-          EVENT_OWNER_NAME: ${{ vars.EVENT_OWNER_NAME || 'Mónica' }}
-          STATE_FILE: state/calendar_sync_state.json
-        run: python -m calendar_sync.main
+          DAYS_AHEAD: ${{ secrets.DAYS_AHEAD }}
+          TIMEZONE: ${{ secrets.TIMEZONE }}
+        run: |
+          PYTHONPATH=src python -m calendar_sync.main
 
       - name: Cleanup synced destination events
         if: ${{ (github.event_name == 'workflow_dispatch' && inputs.mode == 'cleanup') || github.event.action == 'cleanup-calendar' }}
@@ -75,7 +73,8 @@ jobs:
           TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Madrid' }}
           EVENT_OWNER_NAME: ${{ vars.EVENT_OWNER_NAME || 'Mónica' }}
           STATE_FILE: state/calendar_sync_state.json
-        run: python -m calendar_sync.cleanup
+        run: |
+            PYTHONPATH=src python -m calendar_sync.cleanup
 
       - name: Persist sync state
         run: |
