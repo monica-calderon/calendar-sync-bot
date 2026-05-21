@@ -45,6 +45,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -e .
 
       - name: Run tests
         run: pytest -q
@@ -58,8 +59,7 @@ jobs:
           DESTINATION_CALENDAR_ID: ${{ secrets.DESTINATION_CALENDAR_ID }}
           DAYS_AHEAD: ${{ secrets.DAYS_AHEAD }}
           TIMEZONE: ${{ secrets.TIMEZONE }}
-        run: |
-          PYTHONPATH=src python -m calendar_sync.main
+        run: python -m calendar_sync.main
 
       - name: Cleanup synced destination events
         if: ${{ (github.event_name == 'workflow_dispatch' && inputs.mode == 'cleanup') || github.event.action == 'cleanup-calendar' }}
@@ -73,8 +73,7 @@ jobs:
           TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Madrid' }}
           EVENT_OWNER_NAME: ${{ vars.EVENT_OWNER_NAME || 'Mónica' }}
           STATE_FILE: state/calendar_sync_state.json
-        run: |
-            PYTHONPATH=src python -m calendar_sync.cleanup
+        run: python -m calendar_sync.cleanup
 
       - name: Persist sync state
         run: |
