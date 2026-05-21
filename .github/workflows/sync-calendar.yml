@@ -69,7 +69,7 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           SOURCE_CALENDAR_IDS: ${{ secrets.SOURCE_CALENDAR_IDS }}
           DESTINATION_CALENDAR_ID: ${{ secrets.DESTINATION_CALENDAR_ID }}
-          DAYS_AHEAD: ${{ vars.DAYS_AHEAD || '60' }}
+          DAYS_AHEAD: ${{ vars.DAYS_AHEAD || '90' }}
           TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Madrid' }}
           EVENT_OWNER_NAME: ${{ vars.EVENT_OWNER_NAME || 'Mónica' }}
           STATE_FILE: state/calendar_sync_state.json

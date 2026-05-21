@@ -13,7 +13,7 @@ class Config:
     google_refresh_token: str
     source_calendar_ids: list[str]
     destination_calendar_id: str
-    days_ahead: int = 60
+    days_ahead: int = 90
     timezone: str = "UTC"
     state_file: Path = Path("state/calendar_sync_state.json")
     event_owner_name: str = "Mónica"
@@ -39,7 +39,7 @@ def load_config(env_file: str | None = None) -> Config:
         raise ValueError("SOURCE_CALENDAR_IDS must contain at least one calendar id")
 
     try:
-        days_ahead = int(os.getenv("DAYS_AHEAD", "60"))
+        days_ahead = int(os.getenv("DAYS_AHEAD", "90"))
     except ValueError as exc:
         raise ValueError("DAYS_AHEAD must be an integer") from exc
 
