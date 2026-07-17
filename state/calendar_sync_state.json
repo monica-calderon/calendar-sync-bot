@@ -7,6 +7,13 @@
       "source_event_id": "60q30opg6kr3ib9pc4r30b9k6kr6cbb1coqmcbb16srj0cj1c8o3ie9g60_20260522T183000Z",
       "source_updated": "2026-05-21T15:04:56.859Z"
     },
+    "7d0crkfv0arf4m3pk5pfdco5qs@group.calendar.google.com::64sjadr1cpgjcb9nc4r68b9kc9hmcb9ocgr64b9hc8r3ip9ickq36cb6cc": {
+      "destination_event_id": "3ujnlukn4tm27trvq44o7cbehg",
+      "last_synced_at": "2026-07-17T10:02:10.325958Z",
+      "source_calendar_id": "7d0crkfv0arf4m3pk5pfdco5qs@group.calendar.google.com",
+      "source_event_id": "64sjadr1cpgjcb9nc4r68b9kc9hmcb9ocgr64b9hc8r3ip9ickq36cb6cc",
+      "source_updated": "2026-07-17T08:07:12.344Z"
+    },
     "7d0crkfv0arf4m3pk5pfdco5qs@group.calendar.google.com::6th62o9g6crjabb56ti6cb9kcpgjcbb26gp34bb174o3go9i6osmaeb16o": {
       "destination_event_id": "ailqtli18ub47sl0lqluec3v7k",
       "last_synced_at": "2026-05-21T12:24:48.227674Z",
@@ -203,6 +210,13 @@
       "source_event_id": "c4sm8p9mc9hmab9h61h38b9kckrjib9ocks34b9l6hj66e9g6lhmaoj4cg_20261002T190000Z",
       "source_updated": "2026-06-02T11:07:40.940Z"
     },
+    "mlb8mnid4fjtfs3cluq398k3dc@group.calendar.google.com::ccqj2pj160r34b9i6so6cb9kcgr3ibb168s6cb9o6pi3edhg64pjipj2cg": {
+      "destination_event_id": "uf06iqt88pqgeif1v8vgba3a34",
+      "last_synced_at": "2026-07-17T10:02:13.581824Z",
+      "source_calendar_id": "mlb8mnid4fjtfs3cluq398k3dc@group.calendar.google.com",
+      "source_event_id": "ccqj2pj160r34b9i6so6cb9kcgr3ibb168s6cb9o6pi3edhg64pjipj2cg",
+      "source_updated": "2026-07-17T08:08:15.906Z"
+    },
     "primary::0qp7p4840674rmiecru9800ku1": {
       "destination_event_id": "624mgqrbcntrgcscp91e8ovjr0",
       "last_synced_at": "2026-05-21T12:24:42.362243Z",
@@ -293,6 +307,13 @@
       "source_calendar_id": "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com",
       "source_event_id": "65j62phgcgs68bb6cko3eb9k6spmabb1clhj6b9gccr36c9n68r32d336k",
       "source_updated": "2026-01-06T14:51:30.578Z"
+    },
+    "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com::6gq30dpjcoomcb9n6th34b9k64o6ab9o60qj6bb46lj32cb6c9i66dhi6s": {
+      "destination_event_id": "ql11tk18076fjosjdtrn2r09gs",
+      "last_synced_at": "2026-07-17T10:02:08.258859Z",
+      "source_calendar_id": "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com",
+      "source_event_id": "6gq30dpjcoomcb9n6th34b9k64o6ab9o60qj6bb46lj32cb6c9i66dhi6s",
+      "source_updated": "2026-07-17T08:36:11.904Z"
     },
     "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com::6ko64cr174sm8bb46go34b9k64o6cb9pchim8bb66hh3edr5ccp68or364": {
       "destination_event_id": "eaj3t9465h7adg5jik14vida3g",
