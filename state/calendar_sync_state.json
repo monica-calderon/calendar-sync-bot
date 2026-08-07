@@ -154,6 +154,13 @@
       "source_event_id": "ckqjaopockr3ab9i60r3ib9k6so3ib9pchgj4bb265i68p1p61gjie33c8",
       "source_updated": "2026-06-30T12:57:04.964Z"
     },
+    "8es10mq2n0121g5o1ug9h3ed0g@group.calendar.google.com::clh32ohg6cs32bb3cphj6b9k60p6abb268o36b9n6orjap1o74qjgdhp74": {
+      "destination_event_id": "42q7gqosdhrsr82vjfjk2qdnfk",
+      "last_synced_at": "2026-08-07T00:54:01.819866Z",
+      "source_calendar_id": "8es10mq2n0121g5o1ug9h3ed0g@group.calendar.google.com",
+      "source_event_id": "clh32ohg6cs32bb3cphj6b9k60p6abb268o36b9n6orjap1o74qjgdhp74",
+      "source_updated": "2026-08-06T17:57:59.944Z"
+    },
     "8es10mq2n0121g5o1ug9h3ed0g@group.calendar.google.com::cos3adb6cksj2b9o6ss3cb9k60s30b9o65j3eb9o61i32chk70o3copk68": {
       "destination_event_id": "8duck21ka7ir4bbveveealqons",
       "last_synced_at": "2026-07-24T21:11:01.286961Z",
