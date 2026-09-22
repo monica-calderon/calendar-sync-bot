@@ -448,6 +448,13 @@
       "source_event_id": "6kpm2cr5chgj8b9mc9ijeb9k6ti38b9pc4qmcb9h6or6cdr260s3copjck",
       "source_updated": "2026-09-21T06:22:40.348Z"
     },
+    "r57c8v42r9fhig1k7n90gc0vck@group.calendar.google.com::6pi3ic366gpmcb9j68o62b9kcor3abb1c5hmab9j6comcoph74rjee1m6o": {
+      "destination_event_id": "qgg5akre77t2b0tp3ef0astl5k",
+      "last_synced_at": "2026-09-22T22:50:22.195133Z",
+      "source_calendar_id": "r57c8v42r9fhig1k7n90gc0vck@group.calendar.google.com",
+      "source_event_id": "6pi3ic366gpmcb9j68o62b9kcor3abb1c5hmab9j6comcoph74rjee1m6o",
+      "source_updated": "2026-09-22T19:58:04.172Z"
+    },
     "r57c8v42r9fhig1k7n90gc0vck@group.calendar.google.com::6pij4d1nc5gm2bb16gqj4b9k6kp34bb1chi32bb369j3ap9nc8rjec9k68": {
       "destination_event_id": "ofmsbu7ok58r023jsi6tv2rfc4",
       "last_synced_at": "2026-09-10T22:23:23.600234Z",
@@ -464,10 +471,10 @@
     },
     "r57c8v42r9fhig1k7n90gc0vck@group.calendar.google.com::coomad9n6ss6cb9kc4pjib9k6krm4b9p6pgjab9n6di36phn6hi6ad9n6c": {
       "destination_event_id": "a7i9g1p7445l2qptunbi0j42t0",
-      "last_synced_at": "2026-09-21T14:57:23.988916Z",
+      "last_synced_at": "2026-09-22T22:50:21.742012Z",
       "source_calendar_id": "r57c8v42r9fhig1k7n90gc0vck@group.calendar.google.com",
       "source_event_id": "coomad9n6ss6cb9kc4pjib9k6krm4b9p6pgjab9n6di36phn6hi6ad9n6c",
-      "source_updated": "2026-09-21T06:22:45.793Z"
+      "source_updated": "2026-09-22T19:59:59.639Z"
     },
     "rkevf788evolqnaqb7j8dttavg@group.calendar.google.com::65j6copic8rj2bb470q34b9k6li68bb1c8sjgb9h64qj4d356csm6pb374": {
       "destination_event_id": "ebavm4fbn8vmifknt81rg9s5ik",
