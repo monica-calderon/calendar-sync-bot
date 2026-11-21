@@ -980,6 +980,13 @@
       "source_event_id": "6ko64cr174sm8bb46go34b9k64o6cb9pchim8bb66hh3edr5ccp68or364",
       "source_updated": "2026-05-03T17:21:27.616Z"
     },
+    "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com::6kqmachj6gpmcbb66pij2b9k60p6abb16dj3cbb66sq34oj165i3cc1j6g": {
+      "destination_event_id": "v5q5nc13diu86jstlvp5ihp5ic",
+      "last_synced_at": "2026-11-21T15:58:30.059363Z",
+      "source_calendar_id": "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com",
+      "source_event_id": "6kqmachj6gpmcbb66pij2b9k60p6abb16dj3cbb66sq34oj165i3cc1j6g",
+      "source_updated": "2026-11-18T14:00:54.990Z"
+    },
     "tf59d0h81cr9u6ce9hb4hr9tco@group.calendar.google.com::6lh6cd1jc4r3gbb36sp68b9k6hj38b9oc8qjgbb668r3epb46oqjacb1c4": {
       "destination_event_id": "s59nca4ig4nogcpmrpka885ti0",
       "last_synced_at": "2026-08-20T19:01:04.462274Z",
